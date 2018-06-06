@@ -15,7 +15,7 @@
       spec: 
         containers: 
           - name: "jenkins-slave"
-            image: "csanchez/jenkins-swarm-slave:2.0-net-tools"
+            image: "jenkins/slave"
             env: 
               # these env vars are a hack only needed when running under docker-compose in one host
               # - 
