@@ -15,7 +15,7 @@
       spec:
         containers:
           - name: "jenkins"
-            image: "csanchez/jenkins-swarm:1.625.1-for-volumes"
+            image: "jenkins/jenkins/"
             ports:
               - containerPort: 8080
               - containerPort: 50000
